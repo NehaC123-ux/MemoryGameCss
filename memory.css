@@ -1,0 +1,100 @@
+body {
+    background-image: url('background2.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    text-decoration: underline;
+  }
+  
+  .row {
+    text-align: center;
+  }
+  
+  .container button {
+    width: 443px;
+    height: 40px;
+    border: 1px solid rgb(233, 232, 232);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; 
+    background: linear-gradient(to right, 
+    red, 
+    orange, 
+    yellow, 
+    green, 
+    blue, 
+    indigo, 
+    violet);
+    align-self: center; 
+    color: white;
+    font-size: 20px;
+  }
+  
+  .card {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: #eee;
+    cursor: pointer;
+    margin: 5px; /* Add some margin between the cards */
+  }
+  
+  .card.done {
+    cursor: default;
+  }
+  
+  .card.done:hover {
+    cursor: default;
+    box-shadow: none;
+  }
+  
+  .card:hover {
+    box-shadow: inset 0px 0px 0px 5px red;
+    box-sizing: border-box;
+  }
+  
+  .red {
+     background-color: red;
+        }
+  .green {
+     background-color: green; 
+    }
+  .blue { 
+    background-color: blue;
+     }
+  .orange {
+     background-color: orange;
+     }
+  .cyan {
+     background-color: cyan;
+     }
+  .yellow {
+     background-color: yellow; 
+    }
+  .pink {
+     background-color: pink; 
+    }
+  .teal {
+     background-color: teal;
+     }
+  
+  .color-hidden {
+    background-color: #eee;
+  }
+  
